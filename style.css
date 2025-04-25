@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
 body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -5,8 +8,17 @@ body{
     color: white;
 }
 
+h1{
+    font-size: 2rem;
+}
+
+a {
+    color: inherit;
+    text-decoration: inherit;
+}
+
 main{
-    padding: 50px;
+    padding: 0px 100px;
 }
 
 header{
@@ -62,6 +74,7 @@ div{
     flex-direction: column;
     justify-content: center;
     box-shadow: 5px 5px 20px#808080;
+    margin: 50px 0px;
 }
 
 section.color-strip{
@@ -78,4 +91,24 @@ section.color-block{
     display: flex;
     flex-direction: column;
     justify-content: center;
+}
+
+section.font-strip, section.styles-strip{
+    display: flex;
+    align-items: baseline;
+
+}
+
+section.font{
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+section.style{
+    flex: 1;
+    padding: 10px;
+    justify-items: center;
 }
